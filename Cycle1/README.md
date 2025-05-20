@@ -2,6 +2,20 @@
 
 AzureVNetExplorer is a PowerShell module designed to assist in **Azure pentesting** or **Azure administration**. It provides various cmdlets to gather information about the **network topology** and details of your **Azure Virtual Network (VNet)**.
 
+# Getting Started
+## System Requirements
+- Windows Operating System with Administrator Access
+- PowerShell 5.0 or above
+
+## Installation
+- Download "AzureVNetExplorer.psm1"
+- Create a folder called "AzureVNetExplorer" in the following directory on your Windows system: C:\Program Files\WindowsPowerShell\Modules
+- Save AzureVNetExplorer.psm1 to C:\Program Files\WindowsPowerShell\Modules\AzureVNetExplorer
+- Run the following PowerShell Command:
+```powershell
+Import-Module AzureVNetExplorer
+```
+
 ## Cmdlets Overview
 
 ### 🔹 List VNets in a Subscription
