@@ -10,9 +10,9 @@ AzureVNetExplorer is a PowerShell module designed for both Azure pentesting and 
 ## Installation
 **1.** Download "AzureVNetExplorer.psm1"
 
-**2.** Create a folder called "AzureVNetExplorer" in the following directory on your Windows system: C:\Program Files\WindowsPowerShell\Modules
+**2.** Create a folder called "AzureVNetExplorer" in the following directory on your Windows system: C:\Program Files\WindowsPowerShell\Modules\
 
-**3.** Save AzureVNetExplorer.psm1 to C:\Program Files\WindowsPowerShell\Modules\AzureVNetExplorer
+**3.** Save AzureVNetExplorer.psm1 to C:\Program Files\WindowsPowerShell\Modules\AzureVNetExplorer\
 
 **4.** Run the following PowerShell Command:
 ```powershell
