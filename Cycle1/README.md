@@ -53,4 +53,6 @@ Get-AzVNetExplorerHelp  : Displays this help menu.
 ```powershell
 Get-AzVNetTopologyGrid -VNetName <Name> -ResourceGroupName <RG>  : Displays VM topology in a grid format using Out-GridView.
 ```
+# Future Development
+This tool will be added to the Powershell Gallery in the near future. The goal is to expand this tool based on recommendations of the community.
 
