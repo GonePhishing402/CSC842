@@ -6,6 +6,7 @@ AzureVNetExplorer is a PowerShell module designed to assist in **Azure pentestin
 ## System Requirements
 - Windows Operating System with Administrator Access
 - PowerShell 5.0 or above
+- Azure Cloud Account
 
 ## Installation
 1. Download "AzureVNetExplorer.psm1"
