@@ -30,31 +30,31 @@ Get-AzVNets -SubscriptionId <ID>
 ```
 ### 🔹 List VMs in a VNet
 ```powershell
-Get-AzVMsInVNet -VNetName <Name> -ResourceGroupName <RG>  : Lists VMs and their IPs in a VNet.
+Get-AzVMsInVNet -VNetName <Name> -ResourceGroupName <RG>  
 ```
-### 🔹 List Firewalls in a VNet
+### 🔹 List Firewalls in a VNet 
 ```powershell
-Get-AzVNetFirewall -VNetName <Name> -ResourceGroupName <RG>  : Checks if a Firewall is linked to a VNet.
+Get-AzVNetFirewall -VNetName <Name> -ResourceGroupName <RG>  
 ```
 ### 🔹 List Vulnerbilities in a Network Security Group (NSG)
 ```powershell
-Get-AzNSGVulnerabilities -ResourceGroupName <RG>  : Checks NSGs for open inbound rules (high-risk ports).
+Get-AzNSGVulnerabilities -ResourceGroupName <RG> 
 ```
 ### 🔹 List VNet Peering
 ```powershell
-Get-AzVNetPeering -VNetName <Name> -ResourceGroupName <RG>  : Lists peered VNets and verifies connectivity.
+Get-AzVNetPeering -VNetName <Name> -ResourceGroupName <RG> 
 ```
 ### 🔹 List Network Security Groups (NSGs) Without a VNet
 ```powershell
-Get-AzVMsWithoutNSGInVNet -VNetName <Name> -ResourceGroupName <RG>  : Checks if VMs within a VNet have NSGs.
+Get-AzVMsWithoutNSGInVNet -VNetName <Name> -ResourceGroupName <RG> 
 ```
 ### 🔹 List the Help Menu
 ```powershell
-Get-AzVNetExplorerHelp  : Displays this help menu.
+Get-AzVNetExplorerHelp
 ```
 ### 🔹 Create a VNet Topology Grid
 ```powershell
-Get-AzVNetTopologyGrid -VNetName <Name> -ResourceGroupName <RG>  : Displays VM topology in a grid format using Out-GridView.
+Get-AzVNetTopologyGrid -VNetName <Name> -ResourceGroupName <RG>
 ```
 # Future Development
 This tool will be added to the Powershell Gallery in the near future. The goal is to expand this tool based on recommendations of the community.
