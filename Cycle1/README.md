@@ -15,7 +15,10 @@ AzureVNetExplorer is a PowerShell module designed to assist in **Azure pentestin
 ```powershell
 Import-Module AzureVNetExplorer
 ```
-
+5. Connect to your Azure Account and begin using AzVNetExplorer
+```powershell
+Connect-AzAccount
+```
 ## Cmdlets Overview
 
 ### 🔹 List VNets in a Subscription
