@@ -9,14 +9,14 @@ AzureVNetExplorer is a PowerShell module designed to assist in **Azure pentestin
 - Azure Cloud Account
 
 ## Installation
-1. Download "AzureVNetExplorer.psm1"
-2. Create a folder called "AzureVNetExplorer" in the following directory on your Windows system: C:\Program Files\WindowsPowerShell\Modules
-3. Save AzureVNetExplorer.psm1 to C:\Program Files\WindowsPowerShell\Modules\AzureVNetExplorer
-4. Run the following PowerShell Command:
+**1.** Download "AzureVNetExplorer.psm1"
+**2.** Create a folder called "AzureVNetExplorer" in the following directory on your Windows system: C:\Program Files\WindowsPowerShell\Modules
+**3.** Save AzureVNetExplorer.psm1 to C:\Program Files\WindowsPowerShell\Modules\AzureVNetExplorer
+**4.** Run the following PowerShell Command:
 ```powershell
 Import-Module AzureVNetExplorer
 ```
-5. Connect to your Azure Account and begin using AzVNetExplorer
+**5.** Connect to your Azure Account and begin using AzVNetExplorer
 ```powershell
 Connect-AzAccount
 ```
