@@ -1,6 +1,5 @@
 # AzureVNetExplorer
-
-AzureVNetExplorer is a PowerShell module designed to assist in **Azure pentesting** or **Azure administration**. It provides various cmdlets to gather information about the **network topology** and details of your **Azure Virtual Network (VNet)**.
+AzureVNetExplorer is a PowerShell module designed for both Azure pentesting and administration. It helps security professionals identify network misconfigurations and potential vulnerabilities while also enabling cloud administrators to audit and manage Azure VNets effectively. By leveraging key cmdlets, users can enumerate VNets, analyze virtual machines within a network, assess NSG security posture, check for firewall presence, map peering connections, and visualize network topology. This dual functionality makes it valuable for securing Azure environments and ensuring proper network configuration.
 
 # Getting Started
 ## System Requirements
