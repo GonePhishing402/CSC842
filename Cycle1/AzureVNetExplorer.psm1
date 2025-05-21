@@ -1,4 +1,7 @@
-﻿## View Virtual Networks in Azure Subscription
+﻿Connect-AzAccount -Environment AzureUSGovernment
+Connect-AzAccount -Environment AzureUSGovernment
+Connect-AzAccount -Environment AzureUSGovernment
+## View Virtual Networks in Azure Subscription
 function Get-AzVNets {
     param ([string]$SubscriptionId)
 
@@ -162,11 +165,13 @@ function Get-AzVNetTopologyGrid {
 
         foreach ($nic in $nics) {
             $vm = Get-AzVM | Where-Object { $_.Id -eq $nic.VirtualMachine.Id }
+            $publicIP = Get-AzPublicIpAddress | Where-Object { $_.Id -eq $nic.IpConfigurations.PublicIpAddress.Id }
 
             if ($vm) {
                 $vmData += [PSCustomObject]@{
                     VMName = $vm.Name
                     PrivateIP = $nic.IpConfigurations.PrivateIpAddress
+                    PublicIP = if ($publicIP) { $publicIP.IpAddress } else { "❌ No Public IP" }
                     Subnet = $subnet.Name
                     NSG = if ($nic.NetworkSecurityGroup) { $nic.NetworkSecurityGroup.Name } else { "❌ No NSG" }
                 }
