@@ -31,8 +31,8 @@ This PowerShell tool automates the retrieval, analysis, and reporting of **Micro
 
 | Parameter         | Description                          | Default         |
 |------------------|--------------------------------------|-----------------|
-| `ResourceGroupName` | Azure resource group name            | `SOC_Central`   |
-| `WorkspaceName`     | Sentinel workspace name              | `SOC-Central`   |
+| `ResourceGroupName` | Azure resource group name            | Manual Entry  |
+| `WorkspaceName`     | Sentinel workspace name              | Manual Entry   |
 | `WorkspaceId`       | (Optional) Sentinel Workspace ID     | Auto-discovered |
 
 ## 📁 Default Output Paths
