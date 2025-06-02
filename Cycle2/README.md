@@ -1,6 +1,7 @@
 # SentinelTune
 
 This PowerShell tool automates the retrieval, analysis, and reporting of **Microsoft Sentinel** alert rules and incident data over the last 90 days.
+![SentinelTune](SentinelTune.PNG)
 
 ## 🔍 Features
 
