@@ -1,8 +1,8 @@
 # Define parameters
 param (
-    [string]$ResourceGroupName = "SOC_Central",
-    [string]$WorkspaceName = "SOC-Central",
-    [string]$WorkspaceId  = "43db1f06-99a8-4153-9ec1-79c7e076957b"
+    [string]$ResourceGroupName = "",
+    [string]$WorkspaceName = "",
+    [string]$WorkspaceId  = ""
 )
 
 # Get Sentinel alert rules
