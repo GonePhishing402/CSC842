@@ -41,7 +41,7 @@ This PowerShell tool automates the retrieval, analysis, and reporting of **Micro
 - **HTML**: `C:\Users\<username>\Documents\REPO\Powershell\Sentinel_Report.html`
 
 ## 🔧 Installation
-```
+
 **1.** Connect to your Azure Account
 ```powershell
 Connect-AzAccount
