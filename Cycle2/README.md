@@ -39,3 +39,11 @@ This PowerShell tool automates the retrieval, analysis, and reporting of **Micro
 
 - **Excel**: `C:\Users\<username>\Documents\REPO\Powershell\Sentinel_Report.xlsx`
 - **HTML**: `C:\Users\<username>\Documents\REPO\Powershell\Sentinel_Report.html`
+
+## Installation
+```
+**1.** Connect to your Azure Account and begin using AzVNetExplorer
+```powershell
+Connect-AzAccount
+```
+* Note: Add ```powershell -Environment AzureUSGovernment ``` if you are connecting to an Azure Government Cloud
