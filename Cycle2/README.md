@@ -42,8 +42,13 @@ This PowerShell tool automates the retrieval, analysis, and reporting of **Micro
 
 ## Installation
 ```
-**1.** Connect to your Azure Account and begin using AzVNetExplorer
+**1.** Connect to your Azure Account
 ```powershell
 Connect-AzAccount
 ```
-* Note: Add ```powershell -Environment AzureUSGovernment ``` if you are connecting to an Azure Government Cloud
+* Note: Add ```-Environment AzureUSGovernment ``` if you are connecting to an Azure Government Cloud
+
+**2.** Download Script and Run
+```powershell
+.\SentinelTune.ps1
+```
