@@ -48,7 +48,7 @@ Connect-AzAccount
 ```
 * Note: Add ```-Environment AzureUSGovernment ``` if you are connecting to an Azure Government Cloud
 
-**2.** Enter your "ResourceGroupName" and "WorkspaceName" into SentinelTune.ps1
+**2.** Enter your ```ResourceGroupName``` and ```WorkspaceName``` into SentinelTune.ps1
 
 **3.** Download Script and Run
 ```powershell
