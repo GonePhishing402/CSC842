@@ -1,5 +1,5 @@
 # Windows API Call Analyzer for Ghidra
-# Author: GonePhishing401 
+# Author: GonePhishing402 
 # Category: Windows Analysis
 # Purpose: Find API calls, their locations, and categorize them.
 
