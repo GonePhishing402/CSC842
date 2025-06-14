@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 # Windows API Call Analyzer for Ghidra
-# Author: Bigdrea6 (Modified by Copilot)
+# Author: GonePhishing401 
 # Category: Windows Analysis
 # Purpose: Find API calls, their locations, and categorize them.
 
