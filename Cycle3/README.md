@@ -29,3 +29,4 @@ The **Windows API Call Analyzer** is a Ghidra script designed to **analyze exter
 4️⃣ **Run the script** → API calls, functions, and categories will be displayed in the console.  
 
 ## 📊 Output Example
+![APIFinder](APIFinder.jpg)
