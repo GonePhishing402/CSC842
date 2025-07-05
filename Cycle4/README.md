@@ -32,14 +32,14 @@ pip install openai
 
 2. **Insert your Azure OpenAI credentials:**
 
-   ```python
+```python
    client = AzureOpenAI(
        api_key="<YOUR_API_KEY>",
        api_version="<API_VERSION>",
        azure_endpoint="<AZURE_ENDPOINT>"
-   ```
+```
 3. **Specify you deployed model:**
- ```python
+```python
    model = "<DEPLOYED_MODEL_NAME>"
 ```
 4. Run the notebook to perform the following steps:
