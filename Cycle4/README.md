@@ -23,7 +23,8 @@ ZeekAIAnalyzer is a Python-based Jupyter Notebook tool designed to analyze Zeek 
 Install dependencies using:
 
 ```bash
-pip install pandas openai
+pip install pandas
+pip install openai
 ```
 ## 🚀 Usage
 
